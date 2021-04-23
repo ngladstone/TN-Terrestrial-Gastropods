@@ -1,0 +1,3 @@
+# TN-Terrestrial-Gastropods
+
+#This repository contains the KnowBR code used to obtain spatial summary statistics and maps for Gladstone et al. (2021) - Tennessee land snails and slugs.
