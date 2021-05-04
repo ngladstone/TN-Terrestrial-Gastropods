@@ -2,7 +2,17 @@ library(KnowBR)
 
 #Things you'll need before you start:
 #1.) the input files are partitioned by taxonomic group. These can be distilled from the Supplementary Material 1 (see Lobo et al. 2018 for data formatting questions)
+#e.g., if you wanted to recreate the county-level analysis, you would copy the following 3 columns from SuppMat1 into a new file:
+       #1a. Species
+       #1b. CountyCentroidLatDD
+       #1c. CountyCentroidLonDD
+
+#then add an additional column of all 1s for every observation (to represent the number of individuals collected at each site...unfortunately we do not have accurate abundance data for terrestrial mollusks).
+
+
 #2.) Shape files for counties and ecoregions (see manuscript for source information)
+
+#NOTE: You will not be able to fully recreate the ecoregion analyses because I have obscurred the National Park Service data per our data user agreement.
 
 #Inputs within each line are associated with the locations of my personal datasets. Yours will need to change to fit your own data.
 
